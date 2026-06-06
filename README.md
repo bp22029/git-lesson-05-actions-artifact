@@ -1,5 +1,10 @@
 # 05 GitHub Actions と Artifact
 
+## レッスンのリポジトリ
+
+- 前のレッスン: [git-lesson-04-pr-review](https://github.com/bp22029/git-lesson-04-pr-review.git)
+- このレッスン: [git-lesson-05-actions-artifact](https://github.com/bp22029/git-lesson-05-actions-artifact.git)
+
 ## 学習目標
 
 この演習では、GitHub Actions を使って Java プログラムを自動実行し、生成された `results/summary.txt` を Artifact として保存する流れを体験します。
@@ -26,6 +31,38 @@ javac -version
 ```bash
 java -version
 ```
+
+## 作業フォルダと clone
+
+このレッスンでは、授業用の親フォルダにある `05` フォルダを使います。
+
+```text
+.
+├── 01
+├── 02
+├── 03
+├── 04
+└── 05
+```
+
+まだこのレッスンのリポジトリを clone していない場合は、`05` フォルダに移動してから clone します。
+
+```bash
+cd 05
+```
+
+```bash
+git clone <GitHubリポジトリURL>
+```
+
+```bash
+cd <リポジトリ名>
+```
+
+確認ポイント:
+
+- `05` フォルダの中に、このレッスンのリポジトリフォルダが作成されたか確認します。
+- ターミナルが clone したリポジトリの中にいる状態で、手順に進みます。
 
 ## このリポジトリで使うファイル
 
